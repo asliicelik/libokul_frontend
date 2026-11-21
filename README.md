@@ -1,44 +1,75 @@
 
-# 📚 Libokul — Educational Mobile Application
+# 📚 Libokul — Mobile Learning Application
 
-Libokul is a Flutter-based educational mobile application designed to make learning more engaging through short-form video content and interactive quizzes.
+Libokul is a mobile learning application developed as a Computer Engineering graduation project at Manisa Celal Bayar University.
 
-The application offers a personalized learning experience based on students' educational levels and exam preparation goals. After watching a series of educational videos, students can reinforce their knowledge through AI-generated quizzes related to the content they have viewed.
+The project combines short-form educational videos, personalized learning experiences, and AI-powered quizzes to make exam preparation more interactive and accessible.
 
-## ✨ Key Features
+## About the Project
 
-- **Vertical Video Feed:** Swipe-based interface for browsing short educational videos.
-- **Personalized Learning:** Educational content tailored to students' learning goals and exam preparation.
-- **AI-Generated Quizzes:** Interactive quizzes designed to reinforce previously viewed educational content.
-- **Interactive UI:** Custom animations and engaging mobile interface components.
-- **Onboarding Experience:** User-friendly screens for collecting learning preferences.
+Libokul follows a microlearning approach, allowing students to explore educational content through a swipe-based vertical video feed.
 
-## 🛠️ Technologies
+The application is designed to provide content based on students' educational levels and exam preparation goals. Its broader learning experience includes AI-generated quizzes related to previously viewed educational content.
 
+## Key Features
+
+- Swipe-based vertical educational video feed
+- Personalized onboarding and learning preferences
+- Login and registration interfaces
+- Interactive animations and mobile navigation
+- Quiz interfaces for reinforcing learning
+- AI-assisted learning features in the overall project
+
+## Technologies
+
+**Frontend**
 - Flutter
 - Dart
 
-## 👩‍💻 My Contribution
+**Overall Project Architecture**
+- Django REST Framework
+- PostgreSQL
+- Ollama (LLM)
 
-I was responsible for the frontend development of Libokul, focusing on user interface design and animations.
+## My Role — Frontend Development
+
+I was responsible for the UI/UX design and Flutter frontend development during the initial development phase.
 
 My contributions included:
 
-- Designing and implementing mobile application screens using Flutter and Dart.
-- Creating custom animations and interactive UI components.
-- Developing the visual interface for the vertical video feed.
-- Designing onboarding and personalized learning interfaces.
-- Creating frontend interfaces for AI-generated quiz interactions.
+- Designing and implementing mobile application interfaces
+- Creating interactive animations and UI components
+- Developing the visual design of the vertical video feed
+- Designing authentication and onboarding screens
+- Creating interfaces for educational quizzes
 
-Backend development and AI quiz generation were outside the scope of my responsibilities.
+Backend development and AI integration were handled by my teammate.
 
-## 🚀 Getting Started
+## Project Development
+
+This repository contains my Flutter frontend implementation.
+
+The project was subsequently developed further in collaboration with my teammate, Osman Can Yılmaz, who worked on the backend, AI integration, and later frontend development.
+
+The completed project builds upon our collaborative development process.
+
+### Repositories
+
+**My Frontend Implementation**
+
+https://github.com/asliicelik/libokul_frontend
+
+**Later Project Version**
+
+https://github.com/oscanylmz/libgpfront
+
+## Getting Started
 
 ### Prerequisites
 
 - Flutter SDK
 - Dart SDK
-- Android Studio or Visual Studio Code
+- Android Studio or VS Code
 - Android emulator or iOS simulator
 
 ### Installation
@@ -49,7 +80,7 @@ Clone the repository:
 git clone https://github.com/asliicelik/libokul_frontend.git
 ```
 
-Navigate to the project directory:
+Navigate to the project:
 
 ```bash
 cd libokul_frontend
@@ -67,17 +98,23 @@ Run the application:
 flutter run
 ```
 
-Some features may require backend services or additional configuration.
+Some features may require additional backend services or configuration.
 
-## 📱 Project Status
+## Project Status
 
-Libokul was developed as an academic graduation project. This repository showcases the Flutter frontend implementation.
+Academic graduation project.
 
-The application has not been published on the App Store or Google Play.
+This repository represents my frontend contribution and is not the final integrated version of the application.
 
-## 👩‍💻 Developer
+## Project Team
 
-**Aslı Çelik**  
+- **Aslı Çelik** — UI/UX Design, Flutter Frontend Development
+- **Osman Can Yılmaz** — Backend Development, AI Integration, Further Development
+
+## Developer
+
+**Aslı Çelik**
+
 Computer Engineer | Mobile Developer
 
 [GitHub](https://github.com/asliicelik)
